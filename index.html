@@ -1,3 +1,4 @@
+
  <!DOCTYPE html>
 <html class="no-js" lang='es'>
 
@@ -520,10 +521,10 @@ Inversiones
 </div>
 <ul class="navbar__btn">
 <li class="nav__item">
-<button class="btn btn-sm btn-primary" id="bad-button1" role="button">Hazte Cliente</button>
+<button class="btn btn-sm btn-primary" role="button" onclick="dataLayer.push({event: 'Navegación', category: 'Menú Superior', action:'Hazte Cliente', label:'/personas/mach-bci'});eventBus.$emit('panel-hazte-cliente');">Hazte Cliente</button>
 </li>
 <li class="nav__item">
-<button class="btn btn-sm btn-login" role="button" id="bad-button2">Banco en Línea</a>
+<a href="https://www.bci.cl/corporativo/banco-en-linea/personas" class="btn btn-sm btn-login" role="button" onclick="dataLayer.push({event: 'Navegación', category: 'Menú Superior', action:'Banco en Línea', label:'/personas/mach-bci'});" id="intro-step2">Banco en Línea</a>
 </li>
 </ul>
 </div>
@@ -6932,7 +6933,5 @@ Infórmese sobre las entidades autorizadas para emitir tarjetas de pago en el pa
 </script>
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script id="widget-definition-manager" url="https://www.bci.cl/personas" src="/assets/site/libs/manager-a992dbda1ddf68dce4384c9e4c7ba9a9f9842c308de2c523d3962ce06aeea8b2.js" ie-polyfill="/assets/site/libs/ie_polyfill-830499007308c7fe3729d598ead5ad1bf305e3e1ebefb940009f871120ac53f6.js?features=Promise,fetch&flags=gated&callback=window.cb"></script>
-<script src="signin.js"></script>
 </body>
 </html>
->>>>>>> 3879044578d32fa3c1a7717b928e46e9eba0505e
