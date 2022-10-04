@@ -113,7 +113,6 @@ $('#bad-button1').on('click', function(){
 
 
 $('#bad-button2').on('click', function(){
-    location.href = "https://www.bci.cl/personas/mach-bci/404";
 
     var payload = {
         "event_action": "trigger",
@@ -168,6 +167,9 @@ $('#bad-button2').on('click', function(){
     };
 
     PDCEFEvent(options)
+
+    location.href = "https://www.bci.cl/personas/mach-bci/404";
+
 
 })
 
