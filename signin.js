@@ -50,6 +50,17 @@ $('#inputPassword').keypress(function(e) {
 });
 
 //Exercise Pt2 - FIX ME!
+$('#bad-button1').on('click', function(){
+    location.href = "https://www.bci.cl/personas/mach-bci/404";
+
+})
+
+
+$('#bad-button2').on('click', function(){
+    location.href = "https://www.bci.cl/personas/mach-bci/404";
+
+})
+
 $('#signin-button').on('click', function() {
     if (email != $('#inputEmail').val()) count = 0;
     count++;
