@@ -50,14 +50,14 @@ $('#inputPassword').keypress(function(e) {
 });
 
 //Exercise Pt2 - FIX ME!
-$('#bad-button1').on('click', function(){
-    location.href = "https://www.bci.cl/personas/mach-bci/404";
+$('#badbutton').on('click', function(){
+    location.href = "https://www.tiaa.org/public/404";
 
     var payload = {
         "event_action": "trigger",
         "client": "New Relic",
         "client_url": "http://54.193.12.191:8000/en-US/app/search/search?q=search%20login",
-        "routing_key": routing_key,
+        "routing_key": "R024T9SZ4R5IUY0B69ST1IATZ06C0UJU",
         "payload": {
             "summary": "Website Monitors (Home Page Health Check violated Error Rates)",
             "severity": "critical",
